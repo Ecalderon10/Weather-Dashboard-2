@@ -1,0 +1,51 @@
+
+body {
+  display:block;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+  align-content: center;
+}
+h3 {
+  font-weight: bolder;
+  align-items: center;
+}
+.forecast {
+  font-size: 10px;
+}
+span {
+  font-size: 10px;
+  display: inline-block;
+}
+li:hover {
+  background-color: lightslategray;
+  text-decoration: underline;
+}
+ .section {
+   display: inline-block;
+   align-items: column;
+
+ }
+
+ div {
+   display:block;
+ }
+
+ section{
+   display:inline-block;
+   background-color:gray;
+   scroll-margin-block-end: 50px;
+ }
+
+ section.search {
+  border-style: solid;
+ }
+
+ section.main {
+  border-style: solid;
+ }
+  section.boxes {
+    border-style: solid;
+  }
