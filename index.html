@@ -42,16 +42,21 @@
             <section>
                 <section>
                     <section class = "main">
+                    <div class="col-sm-12" id="current-weather">
                         <h3 class="city-name" id="current-city"></h3>
                         <p>Temperature:<span class="current" id="temperature"></span></p>
                         <p>Humidity:<span class="current" id="humidity"></span></p>
                         <p>Wind-Speed:<span class="current" id="wind-speed"></span></p>
                         <p>
-                            UV index:<span class="" id="uv-index"></span>
+                        UV index:<span
+                        class="current bg-danger rounded py-2 px-2 text-white"
+                        id="uv-index"
+                        ></span>  
                         </p>
+                    </div>
                     </section>
                 </section>
-                <section class = "boxes">
+                <section class = "boxes" id="future-weather">
                     <h3>5-Day Forecast</h3>
                     <section>
                         <section>
@@ -64,28 +69,28 @@
                             <p id="fDate1"></p>
                             <p id="fImag1"></p>
                             <p>Temp:<span id="fTemp1"></span></p>
-                            <p>Humidity:<span id=fHumidty1"></span></p>
+                            <p>Humidity:<span id=fHumidity1"></span></p>
                         </section>
                         <section>
                             <p id="fDate2"></p>
                             <p id="fImag2"></p>
                             <p>Temp:<span id="fTemp2"></span></p>
-                            <p>Humidity:<span id=fHumidty2"></span></p>
+                            <p>Humidity:<span id=fHumidity2"></span></p>
                         </section>
                         <section>
                             <p id="fDate3"></p>
                             <p id="fImag3"></p>
                             <p>Temp:<span id="fTemp3"></span></p>
-                            <p>Humidity:<span id=fHumidty3"></span></p>
+                            <p>Humidity:<span id=fHumidity3"></span></p>
                         </section>
                         <section>
                             <p id="fDate4"></p>
                             <p id="fImag4"></p>
                             <p>Temp:<span id="fTemp4"></span></p>
-                            <p>Humidity:<span id=fHumidty4"></span></p>
+                            <p>Humidity:<span id=fHumidity4"></span></p>
                         </section>
                     </section>
-            </section>
+                </section>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery.js"></script>
